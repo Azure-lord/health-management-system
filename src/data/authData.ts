@@ -1,0 +1,55 @@
+import { UserAccount } from '../types/health';
+
+export const PRESET_ACCOUNTS: UserAccount[] = [
+  {
+    id: 'usr-parent-default',
+    name: 'Parent / Guardian',
+    email: 'parent@family.com',
+    passwordHash: 'parent123',
+    role: 'parent',
+    title: 'Parent & Legal Guardian',
+    linkedStudentIds: [],
+  },
+  {
+    id: 'usr-teacher-default',
+    name: 'Classroom Teacher',
+    email: 'teacher@school.edu',
+    passwordHash: 'teacher123',
+    role: 'teacher',
+    title: 'Classroom Faculty',
+    assignedClassId: 'cls-101',
+  },
+  {
+    id: 'usr-clinic-default',
+    name: 'School Nurse & Health Director',
+    email: 'nurse@school.edu',
+    passwordHash: 'nurse123',
+    role: 'medical_center',
+    title: 'Licensed Health Staff, RN',
+    facilityName: 'Student Health Clinic',
+  },
+  {
+    id: 'usr-principal-default',
+    name: 'School Principal',
+    email: 'principal@school.edu',
+    passwordHash: 'principal123',
+    role: 'principal',
+    title: 'Chief Educational Administrator',
+  },
+  {
+    id: 'usr-district-default',
+    name: 'District Authority Officer',
+    email: 'district.auth@schools.gov',
+    passwordHash: 'district123',
+    role: 'district_auth',
+    title: 'Superintendent & Safety Oversight',
+  },
+  {
+    id: 'usr-itadmin-default',
+    name: 'School IT Administrator',
+    email: 'itadmin@school.edu',
+    passwordHash: 'itadmin123',
+    role: 'it_admin',
+    title: 'School IT Administrator & Systems Lead',
+  },
+];

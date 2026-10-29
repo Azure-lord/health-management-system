@@ -1,0 +1,6 @@
+{
+  "name": "K-Health: Student Allergy & Health Portal",
+  "description": "Student health management platform featuring dedicated storing, editing, and daily updating screens with role-based access for teachers and parents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
